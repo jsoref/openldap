@@ -163,7 +163,7 @@ class LDAPConnection : private LDAPAsynConnection {
         /**
          * This method performs the ModDN-operation.
          *
-         * It can be used to rename or move an entry by modifing its DN.
+         * It can be used to rename or move an entry by modifying its DN.
          *
          * @throws LDAPReferralException if a referral is received
          * @throws LDAPException for any other error occuring during the

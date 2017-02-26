@@ -1508,7 +1508,7 @@ autogroup_memberOf_filter( Filter *f, BerValue *dn, AttributeDescription *member
 }
 
 /*
-** When modifing a group, we must deny any modifications to the member attribute,
+** When modifying a group, we must deny any modifications to the member attribute,
 ** because the group would be inconsistent.
 */
 static int
