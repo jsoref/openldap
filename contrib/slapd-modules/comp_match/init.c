@@ -652,7 +652,7 @@ comp_test_components( void* attr_nm, void* assert_nm, ComponentSyntaxInfo* csi_a
 			if ( !odm || !odm->BER_Decode )
 				return  LDAP_PROTOCOL_ERROR;
 
-			/* current componet MUST be either BIT or OCTET STRING */
+			/* current component MUST be either BIT or OCTET STRING */
 			if ( csi_attr->csi_comp_desc->cd_type_id != BASICTYPE_BITSTRING ) {
 				bv.bv_val = ((ComponentBits*)csi_attr)->value.bits;
 				bv.bv_len = ((ComponentBits*)csi_attr)->value.bitLen;

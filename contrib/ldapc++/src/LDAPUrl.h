@@ -146,7 +146,7 @@ class LDAPUrl{
     protected : 
         /**
          * Split the url string that is associated with this Object into
-         * it components. The compontens of the URL can be access via the 
+         * it components. The components of the URL can be access via the 
          * get...() methods.
          * (this function is mostly for internal use and gets called 
          * automatically whenever necessary)
