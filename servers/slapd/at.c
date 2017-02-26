@@ -725,7 +725,7 @@ at_add(
 	/*
 	 * Inherit definitions from superiors.  We only check the
 	 * direct superior since that one has already inherited from
-	 * its own superiorss
+	 * its own superiors
 	 */
 	if ( sat->sat_sup ) {
 		Syntax *syn = syn_find(sat->sat_sup->sat_syntax->ssyn_oid);
