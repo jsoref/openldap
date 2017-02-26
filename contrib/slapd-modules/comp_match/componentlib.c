@@ -717,9 +717,9 @@ MatchingComponentInt(char* oid, ComponentSyntaxInfo* csi_attr,
         ComponentInt *a, *b;
                                                                           
         if( oid ) {
-                /* check if this ASN type's matching rule is overrided */
+                /* check if this ASN type's matching rule is overridden */
                 mr = retrieve_matching_rule(oid, csi_attr->csi_comp_desc->cd_type_id );
-                /* if existing function is overrided, call the overriding
+                /* if existing function is overridden, call the overriding
 function*/
                 if ( mr )
                         return component_value_match( mr, csi_attr , csi_assert );
