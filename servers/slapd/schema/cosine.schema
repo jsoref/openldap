@@ -518,7 +518,7 @@ attributetype ( 0.9.2342.19200300.100.1.29 NAME 'nSRecord'
 # 9.3.25.  SOA Record
 #
 #  The SOA Record attribute type specifies a type SOA (Start of
-#  Authority) DNS resorce record [6] [7].
+#  Authority) DNS resource record [6] [7].
 #
 #    sOARecord ATTRIBUTE
 #        WITH ATTRIBUTE-SYNTAX
