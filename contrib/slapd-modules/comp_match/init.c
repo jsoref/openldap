@@ -602,7 +602,7 @@ comp_test_components( void* attr_nm, void* assert_nm, ComponentSyntaxInfo* csi_a
 
 	if ( !cr )
 		return comp_test_one_component ( attr_nm, assert_nm, csi_attr, ca );
-	/* Extracting the component refrenced by ca->ca_comp_ref */
+	/* Extracting the component referenced by ca->ca_comp_ref */
 	csi_attr = (ComponentSyntaxInfo*)csi_attr->csi_comp_desc->cd_extract_i( attr_nm, cr, csi_attr );
 	if ( !csi_attr ) return LDAP_INVALID_SYNTAX;
 	/* perform matching, considering the type of a Component Reference(CR)*/
