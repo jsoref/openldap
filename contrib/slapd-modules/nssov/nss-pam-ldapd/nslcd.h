@@ -58,7 +58,7 @@
 
    Furthermore the ADDRESS compound data type is defined as:
      INT32  type of address: e.g. AF_INET or AF_INET6
-     INT32  lenght of address
+     INT32  length of address
      RAW    the address itself
    With the ADDRESSLIST using the same construct as with STRINGLIST.
 
