@@ -3975,10 +3975,10 @@ case $host_os in
 	  *)
 	    # The C++ compiler is used as linker so we must use $wl
 	    # flag to pass the commands to the underlying system
-	    # linker. We must also pass each convience library through
+	    # linker. We must also pass each convenience library through
 	    # to the system linker between allextract/defaultextract.
 	    # The C++ compiler will combine linker options so we
-	    # cannot just pass the convience library names through
+	    # cannot just pass the convenience library names through
 	    # without $wl.
 	    # Supported since Solaris 2.6 (maybe 2.5.1?)
 	    _LT_AC_TAGVAR(whole_archive_flag_spec, $1)='${wl}-z ${wl}allextract`for conv in $convenience\"\"; do test -n \"$conv\" && new_convenience=\"$new_convenience,$conv\"; done; $echo \"$new_convenience\"` ${wl}-z ${wl}defaultextract'
@@ -6353,7 +6353,7 @@ EOF
       solaris2.[[0-5]] | solaris2.[[0-5]].*) ;;
       *)
  	# The compiler driver will combine linker options so we
- 	# cannot just pass the convience library names through
+ 	# cannot just pass the convenience library names through
  	# without $wl, iff we do not link with $LD.
  	# Luckily, gcc supports the same syntax we need for Sun Studio.
  	# Supported since Solaris 2.6 (maybe 2.5.1?)

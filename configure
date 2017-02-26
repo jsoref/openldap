@@ -9756,7 +9756,7 @@ if test -z "$aix_libpath"; then aix_libpath="/usr/lib:/lib"; fi
       solaris2.[0-5] | solaris2.[0-5].*) ;;
       *)
  	# The compiler driver will combine linker options so we
- 	# cannot just pass the convience library names through
+ 	# cannot just pass the convenience library names through
  	# without $wl, iff we do not link with $LD.
  	# Luckily, gcc supports the same syntax we need for Sun Studio.
  	# Supported since Solaris 2.6 (maybe 2.5.1?)
