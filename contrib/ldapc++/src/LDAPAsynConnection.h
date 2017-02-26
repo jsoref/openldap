@@ -232,7 +232,7 @@ class LDAPAsynConnection{
          *      error that occured.
          * @param oid The dotted decimal representation of the extended 
          *      Operation that should be performed
-         * @param value The data asociated with this operation
+         * @param value The data associated with this operation
          * @param cons  A set of constraints that should be used with this
          *              request
          */
