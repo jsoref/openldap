@@ -81,7 +81,7 @@ class LDAPMsg{
          *          DEL_RESPONSE       <BR>  
          *          MODDN_RESPONSE     <BR>    
          *          COMPARE_RESPONSE   <BR>
-         *          EXTENDED_REPONSE   <BR>      
+         *          EXTENDED_RESPONSE   <BR>      
          */
         int getMessageType();
         
