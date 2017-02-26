@@ -57,7 +57,7 @@ class LDAPConnection : private LDAPAsynConnection {
         ~LDAPConnection();
         
         /** 
-         * Initzializes a synchronous connection to a server. 
+         * Initializes a synchronous connection to a server. 
          * 
          * There is actually no
          * communication to the server. Just the object is initialized
