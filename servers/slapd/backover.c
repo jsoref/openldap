@@ -1109,7 +1109,7 @@ overlay_register_control( BackendDB *be, const char *oid )
 				gotit = 1;
 			}
 
-			/* overlays can be instanciated multiple times, use
+			/* overlays can be instantiated multiple times, use
 			 * be_ctrls[ cid ] as an instance counter, so that the
 			 * overlay's controls are only really disabled after the
 			 * last instance called overlay_register_control() */
@@ -1120,7 +1120,7 @@ overlay_register_control( BackendDB *be, const char *oid )
 	}
 	
 	if ( !gotit ) {
-		/* overlays can be instanciated multiple times, use
+		/* overlays can be instantiated multiple times, use
 		 * be_ctrls[ cid ] as an instance counter, so that the
 		 * overlay's controls are only really unregistered after the
 		 * last instance called overlay_register_control() */
