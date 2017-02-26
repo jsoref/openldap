@@ -111,7 +111,7 @@ class LDAPAsynConnection{
          *      error that occured.
          * This method does a simple (username, password) bind to the server.
          * Other, saver, authentcation methods are provided later
-         * @param dn the distiguished name to bind as
+         * @param dn the distinguished name to bind as
          * @param passwd cleartext password to use
          */
         LDAPMessageQueue* bind(const std::string& dn="", 
@@ -196,7 +196,7 @@ class LDAPAsynConnection{
          * @throws LDAPException If the Request could not be sent to the
          *      destination server, a LDAPException-object contains the
          *      error that occured.
-         * @param dn Distiguished Name of the Entry to modify
+         * @param dn Distinguished Name of the Entry to modify
          * @param modlist A set of modification that should be applied
          *      to the Entry
          * @param cons  A set of constraints that should be used with this
