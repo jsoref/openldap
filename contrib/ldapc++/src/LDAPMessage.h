@@ -46,7 +46,7 @@ class LDAPMsg{
         static const int EXTENDED_REQUEST=LDAP_REQ_EXTENDED;
        
         /**
-         * The destructor has no implemenation, because this is an abstract
+         * The destructor has no implementation, because this is an abstract
          * class.
          */
         virtual ~LDAPMsg() {}
