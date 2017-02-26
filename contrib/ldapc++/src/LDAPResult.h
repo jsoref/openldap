@@ -141,7 +141,7 @@ class LDAPResult : public LDAPMsg{
         const std::string& getMatchedDN() const;
 
         /**
-         * @returns If the result code is REFERRAL this methode returns the
+         * @returns If the result code is REFERRAL this method returns the
          *      URLs of the referral that was sent by the server.
          */
         const LDAPUrlList& getReferralUrls() const;
