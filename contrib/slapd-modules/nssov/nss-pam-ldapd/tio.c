@@ -170,7 +170,7 @@ static int tio_wait(int fd, short events, int timeout,
       errno = ETIME;
       return -1;
     }
-    /* sanitiy check for moving clock */
+    /* sanity check for moving clock */
     if (t > timeout)
       t = timeout;
     /* wait for activity */
