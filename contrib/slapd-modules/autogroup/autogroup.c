@@ -1193,7 +1193,7 @@ autogroup_response( Operation *op, SlapReply *rs )
 				}
 
 				if ( age->age_modrdn_olddnmodified ) {
-					/* Resquest already marked this group to be updated */
+					/* Request already marked this group to be updated */
 					is_olddn = 1;
 					is_value_refresh = 1;
 					age->age_modrdn_olddnmodified = 0;
