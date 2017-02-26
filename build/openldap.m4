@@ -719,7 +719,7 @@ dnl Check GNU Pth pthread Header
 dnl
 dnl defines ol_cv_header linux_threads to 'yes' or 'no'
 dnl		'no' implies pthreads.h is not LinuxThreads or pthreads.h
-dnl		doesn't exists.  Existance of pthread.h should separately
+dnl		doesn't exists.  Existence of pthread.h should separately
 dnl		checked.
 dnl 
 AC_DEFUN([OL_HEADER_GNU_PTH_PTHREAD_H], [
@@ -750,7 +750,7 @@ dnl Check LinuxThreads Header
 dnl
 dnl defines ol_cv_header linux_threads to 'yes' or 'no'
 dnl		'no' implies pthreads.h is not LinuxThreads or pthreads.h
-dnl		doesn't exists.  Existance of pthread.h should separately
+dnl		doesn't exists.  Existence of pthread.h should separately
 dnl		checked.
 dnl 
 AC_DEFUN([OL_HEADER_LINUX_THREADS], [
