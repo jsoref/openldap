@@ -212,7 +212,7 @@
      STRING  password
    and the result value consists of:
      INT32   authc NSLCD_PAM_* result code
-     STRING  user name (the cannonical user name)
+     STRING  user name (the canonical user name)
      INT32   authz NSLCD_PAM_* result code
      STRING  authorisation error message
    If the username is empty in this request an attempt is made to
