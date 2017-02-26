@@ -59,7 +59,7 @@ class LDAPResult : public LDAPMsg{
 
         static const int ALIAS_DEREFERENCING_PROBLEM    = 36;
 
-        static const int INAPPROPRIATE_AUTENTICATION    = 48;
+        static const int INAPPROPRIATE_AUTHENTICATION    = 48;
         static const int INVALID_CREDENTIALS            = 49;
         static const int INSUFFICIENT_ACCESS            = 50;
         static const int BUSY                           = 51;
