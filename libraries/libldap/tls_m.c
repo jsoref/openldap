@@ -625,7 +625,7 @@ nss_parse_ciphers(const char *cipherstr, int cipher_list[ciphernum])
 						 (ciphers_def[i].strength & strength) ||
 						 (ciphers_def[i].version & protocol)) &&
 						(cipher_list[i] != -1)) {
-						/* Enable the NULL ciphers only if explicity
+						/* Enable the NULL ciphers only if explicitly
 						 * requested */
 						if (ciphers_def[i].attr & SSL_eNULL) {
 							if (mask & SSL_eNULL)
