@@ -965,7 +965,7 @@ AC_CHECK_FUNC(select, :, AC_MSG_ERROR([select() required.]))
 
 if test "${ac_cv_header_winsock_h}" != yes; then
 	dnl Select arg types
-	dnl (if this detection becomes permenent, it and the select() detection
+	dnl (if this detection becomes permanent, it and the select() detection
 	dnl should be done before the yielding select test) 
 	AC_FUNC_SELECT_ARGTYPES
 fi
