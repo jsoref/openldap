@@ -2288,7 +2288,7 @@ struct BackendInfo {
 	BI_op_extended	*bi_extended;
 	BI_op_cancel	*bi_op_cancel;
 
-	/* Auxilary Functions */
+	/* Auxiliary Functions */
 	BI_operational		*bi_operational;
 	BI_chk_referrals	*bi_chk_referrals;
 	BI_chk_controls		*bi_chk_controls;
