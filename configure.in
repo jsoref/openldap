@@ -419,7 +419,7 @@ dnl ----------------------------------------------------------------
 
 # validate options
 if test $ol_enable_slapd = no ; then
-	dnl SLAPD was specificallly disabled
+	dnl SLAPD was specially disabled
 	if test $ol_enable_slapi = yes ; then
 		AC_MSG_WARN([slapd disabled, ignoring --enable-slapi argument])
 	fi
