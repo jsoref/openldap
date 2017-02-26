@@ -18,7 +18,7 @@
 
 using namespace std;
 
-// little helper function for doing case insensitve string comparison
+// little helper function for doing case insensitive string comparison
 bool nocase_compare(char c1, char c2);
 
 LDAPAttributeList::LDAPAttributeList(){
