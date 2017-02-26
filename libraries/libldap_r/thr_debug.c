@@ -70,7 +70,7 @@
  *      noabort  - Do not abort() on errors.
  *      noerror  - Do not report errors.  Implies noabort.
  *      nocount  - Do not report counts of unreleased resources.
- *      nosync   - Disable tests that use synchronizaion and thus
+ *      nosync   - Disable tests that use synchronization and thus
  *                 clearly affect thread scheduling:
  *                 Implies nocount, and cancels threadID if that is set.
  *                 Note that if you turn on tracethreads or malloc
