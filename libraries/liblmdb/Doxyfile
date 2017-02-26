@@ -211,7 +211,7 @@ OPTIMIZE_OUTPUT_VHDL   = NO
 # parses. With this tag you can assign which parser to use for a given extension.
 # Doxygen has a built-in mapping, but you can override or extend it using this
 # tag. The format is ext=language, where ext is a file extension, and language
-# is one of the parsers supported by doxygen: IDL, Java, Javascript, CSharp, C,
+# is one of the parsers supported by doxygen: IDL, Java, JavaScript, CSharp, C,
 # C++, D, PHP, Objective-C, Python, Fortran, VHDL, C, C++. For instance to make
 # doxygen treat .inc files as Fortran files (default is PHP), and .f files as C
 # (default is Fortran), use: inc=Fortran f=C. Note that for custom extensions
@@ -1071,7 +1071,7 @@ SEARCHENGINE           = YES
 
 # When the SERVER_BASED_SEARCH tag is enabled the search engine will be
 # implemented using a PHP enabled web server instead of at the web client
-# using Javascript. Doxygen will generate the search PHP script and index
+# using JavaScript. Doxygen will generate the search PHP script and index
 # file to put on the web server. The advantage of the server
 # based approach is that it scales better to large projects and allows
 # full text search. The disadvances is that it is more difficult to setup
