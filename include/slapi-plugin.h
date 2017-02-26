@@ -343,7 +343,7 @@ Slapi_PBlock *slapi_modrdn_internal( char * olddn, char * newrdn,
 	int deloldrdn, LDAPControl **controls,
 	int log_change );
 Slapi_PBlock *slapi_rename_internal( const char * olddn, const char *newrdn,
-	const char *newsuperior, int delolrdn,
+	const char *newsuperior, int deloldrdn,
 	LDAPControl **controls, int log_change );
 void slapi_free_search_results_internal(Slapi_PBlock *pb);
 
