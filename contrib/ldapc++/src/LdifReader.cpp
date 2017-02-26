@@ -75,7 +75,7 @@ int LdifReader::readNextRecord( bool first )
                 {
                     std::ostringstream err;
                     err << "Line " << this->m_lineNumber 
-                        << ": Unsuported LDIF Version";
+                        << ": Unsupported LDIF Version";
                     throw( std::runtime_error(err.str()) );
                 }
                 continue;
