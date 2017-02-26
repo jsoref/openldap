@@ -2022,7 +2022,7 @@ InstallAnyByComponentInt (int anyId, ComponentInt intId, unsigned int size,
 
 
 /*
- * OID and its corresponding decoder can be registerd with this func.
+ * OID and its corresponding decoder can be registered with this func.
  * If contained types constrained by <select> are used,
  * their OID and decoder MUST be registered, otherwise it will return no entry.
  * An open type(ANY type) also need be registered.
