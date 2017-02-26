@@ -978,7 +978,7 @@ ldap_back_monitor_db_open( BackendDB *be )
 		rc = mbe->register_database( be, &li->li_monitor_info.lmi_ndn );
 		if ( rc != 0 ) {
 			Debug( LDAP_DEBUG_ANY, "ldap_back_monitor_db_open: "
-				"failed to register the databse with back-monitor\n",
+				"failed to register the database with back-monitor\n",
 				0, 0, 0 );
 		}
 	}
