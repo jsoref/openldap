@@ -1090,7 +1090,7 @@ if test $RC != 0 ; then
 	exit $RC
 fi
 
-# Test done, now some more intialization...
+# Test done, now some more initialization...
 
 echo "Adding syncrepl consumer on central search..."
 $LDAPMODIFY -D cn=config -H $URI4 -y $CONFIGPWF <<EOF >> $TESTOUT 2>&1
