@@ -381,7 +381,7 @@ ldap_back_monitor_subsystem_destroy(
 
 /*
  * Connection monitoring subsystem:
- * Tries to mimick what the cn=connections,cn=monitor subsystem does
+ * Tries to mimic what the cn=connections,cn=monitor subsystem does
  * by creating volatile entries for each connection and populating them
  * according to the information attached to the connection.
  * At this moment the only exposed information is the DN used to bind it.
