@@ -125,7 +125,7 @@ class LDAPResult : public LDAPMsg{
         std::string resToString() const;
 
         /**
-         * In some case of error the server may return addional error
+         * In some case of error the server may return additional error
          * messages.
          * @returns The additional error message returned by the server.
          */
