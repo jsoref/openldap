@@ -85,7 +85,7 @@ class LDAPUrl{
 
         /**
          * Set the Protocol Scheme of the URL
-         * @param host The Protcol scheme. Allowed values are 
+         * @param host The Protocol scheme. Allowed values are 
          *       ldap,ldapi,ldaps and cldap
          */
         void setScheme( const std::string &scheme );
