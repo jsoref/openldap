@@ -513,7 +513,7 @@ typedef void ldap_debug_thread_t;
 #else /* LDAP_THREAD_DEBUG_THREAD_ID */
 
 /*
- * Thread ID tracking.  Currently acieves little.
+ * Thread ID tracking.  Currently achieves little.
  * Should be either expanded or deleted.
  */
 
