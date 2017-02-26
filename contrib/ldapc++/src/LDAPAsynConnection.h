@@ -63,7 +63,7 @@ class LDAPAsynConnection{
         static const int SEARCH_SUB=2;
 
         /** Construtor that initializes a connection to a server
-         * @param hostname Name (or IP-Adress) of the destination host
+         * @param hostname Name (or IP-Address) of the destination host
          * @param port Port the LDAP server is running on
          * @param cons Default constraints to use with operations over 
          *      this connection

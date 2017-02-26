@@ -43,7 +43,7 @@ class LDAPConnection : private LDAPAsynConnection {
          * 
          * During execution of this constructor no network communication
          * is performed. Just some internal data structure are initialized
-         * @param hostname Name (or IP-Adress) of the destination host
+         * @param hostname Name (or IP-Address) of the destination host
          * @param port Port the LDAP server is running on
          * @param cons Default constraints to use with operations over 
          *      this connection
