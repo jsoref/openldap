@@ -37,7 +37,7 @@ class LDAPControlSet {
          * 0-terminiated array of LDAPControl-structures as used by the
          * C-API
          * @param controls: pointer to a 0-terminated array of pointers to 
-         *                  LDAPControll-structures
+         *                  LDAPControl-structures
          * @note: untested til now. Due to lack of server that return 
          *          Controls
          */
