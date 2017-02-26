@@ -1319,7 +1319,7 @@ BDecComponentOid ( void* mem_op, GenBuf *b, AsnTag tagId, AsnLen len, void *v,
 }
 
 /*
- * Component BER Decoder : PrintiableString
+ * Component BER Decoder : PrintableString
  */
 
 int
