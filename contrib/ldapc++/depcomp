@@ -288,7 +288,7 @@ tru64)
 
    if test "$libtool" = yes; then
       # With Tru64 cc, shared objects can also be used to make a
-      # static library.  This mecanism is used in libtool 1.4 series to
+      # static library.  This mechanism is used in libtool 1.4 series to
       # handle both shared and static libraries in a single compilation.
       # With libtool 1.4, dependencies were output in $dir.libs/$base.lo.d.
       #
