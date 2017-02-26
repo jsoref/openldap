@@ -541,7 +541,7 @@ like this (by Robin Elfrink):
               1, 0, userid FROM unixusers
       UNION
           SELECT (2000000000+groupnummer),
-              UPPER(CONCAT(CONCAT('cn=',groupnaam),',o=MyCompany,c=NL')),
+              UPPER(CONCAT(CONCAT('cn=',groupname),',o=MyCompany,c=NL')),
               2, 0, groupnummer FROM groups;
 .fi
 
