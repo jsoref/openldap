@@ -15,7 +15,7 @@
  */
 /*
  * Authors: Neil Dunbar <neil.dunbar@hp.com>
- *			Emmannuel Dreyfus <manu@netbsd.org>
+ *			Emmanuel Dreyfus <manu@netbsd.org>
  */
 #include "portable.h"
 
