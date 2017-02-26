@@ -87,7 +87,7 @@ cache-level DN fetch.
 nothing to say; all the open handles related to the connection are reset.
 
 - search
-if updates are to be strictly honored, a search operation is performed agaist
+if updates are to be strictly honored, a search operation is performed against
 each URI. Note that this needs be performed also when the backend suffix
 is used as base. In case the base is stricter, the URI pool may be restricted 
 by performing a cache DN fetch of the base first.
