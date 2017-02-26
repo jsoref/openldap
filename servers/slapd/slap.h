@@ -2238,7 +2238,7 @@ struct BackendInfo {
 	 *		bi_close() is called from backend_shutdown()
 	 * bi_destroy: called to destroy each database, called
 	 *		once during shutdown after all bi_db_destroy calls.
-	 *		bi_destory() is called from backend_destroy()
+	 *		bi_destroy() is called from backend_destroy()
 	 */
 	BI_init	*bi_init;
 	BI_config	*bi_config;
@@ -2264,8 +2264,8 @@ struct BackendInfo {
 	 *  called only by backend_shutdown()
 	 * bi_db_destroy: called to destroy each database
 	 *  called once per database during shutdown AFTER all
-	 *  bi_close calls but before bi_destory calls.
-	 *  called only by backend_destory()
+	 *  bi_close calls but before bi_destroy calls.
+	 *  called only by backend_destroy()
 	 */
 	BI_db_init	*bi_db_init;
 	BI_db_config	*bi_db_config;
