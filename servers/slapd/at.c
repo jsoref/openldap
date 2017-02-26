@@ -659,7 +659,7 @@ at_add(
 	*err = cname;
 
 	if ( !at->at_usage && at->at_no_user_mod ) {
-		/* user attribute must be modifable */
+		/* user attribute must be modifiable */
 		code = SLAP_SCHERR_ATTR_BAD_USAGE;
 		goto error_return;
 	}
