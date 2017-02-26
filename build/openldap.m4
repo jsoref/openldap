@@ -534,7 +534,7 @@ if test $ac_cv_header_db_h = yes; then
 fi
 ])
 dnl --------------------------------------------------------------------
-dnl Check for version compatility with back-bdb
+dnl Check for version compatibility with back-bdb
 AC_DEFUN([OL_BDB_COMPAT],
 [AC_CACHE_CHECK([if Berkeley DB version supported by BDB/HDB backends], [ol_cv_bdb_compat],[
 	AC_EGREP_CPP(__db_version_compat,[
@@ -1107,7 +1107,7 @@ AC_DEFUN([OL_FUNC_GETHOSTBYADDR_R_NARGS],
 ])dnl
 dnl
 dnl --------------------------------------------------------------------
-dnl Check for Cyrus SASL version compatility
+dnl Check for Cyrus SASL version compatibility
 AC_DEFUN([OL_SASL_COMPAT],
 [AC_CACHE_CHECK([Cyrus SASL library version], [ol_cv_sasl_compat],[
 	AC_EGREP_CPP(__sasl_compat,[
