@@ -1487,7 +1487,7 @@ pthread_rwlock_t rwlock;
 			AC_DEFINE(HAVE_PTHREAD_DETACH,1,
 				[define if you have pthread_detach function])
 
-			dnl Check for setconcurreny functions
+			dnl Check for setconcurrency functions
 			AC_CHECK_FUNCS(	\
 				pthread_setconcurrency \
 				pthread_getconcurrency \
@@ -1733,7 +1733,7 @@ case $ol_with_threads in auto | yes | lwp)
 				ol_with_yielding_select=yes
 			fi
 
-			dnl Check for setconcurreny functions
+			dnl Check for setconcurrency functions
 			AC_CHECK_FUNCS(	\
 				thr_setconcurrency \
 				thr_getconcurrency \
