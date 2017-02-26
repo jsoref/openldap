@@ -7694,7 +7694,7 @@ else
   cygwin* | mingw*)
     # On Win9x/ME, this test blows up -- it succeeds, but takes
     # about 5 minutes as the teststring grows exponentially.
-    # Worse, since 9x/ME are not pre-emptively multitasking,
+    # Worse, since 9x/ME are not preemptively multitasking,
     # you end up with a "frozen" computer, even though with patience
     # the test eventually succeeds (with a max line length of 256k).
     # Instead, let's just punt: use the minimum linelength reported by
@@ -9756,7 +9756,7 @@ if test -z "$aix_libpath"; then aix_libpath="/usr/lib:/lib"; fi
       solaris2.[0-5] | solaris2.[0-5].*) ;;
       *)
  	# The compiler driver will combine linker options so we
- 	# cannot just pass the convience library names through
+ 	# cannot just pass the convenience library names through
  	# without $wl, iff we do not link with $LD.
  	# Luckily, gcc supports the same syntax we need for Sun Studio.
  	# Supported since Solaris 2.6 (maybe 2.5.1?)
@@ -21658,7 +21658,7 @@ $as_echo "#define HAVE_TCPD 1" >>confdefs.h
 
 		WRAP_LIBS="-lwrap"
 	elif test $ol_enable_wrappers = yes ; then
-		as_fn_error "could not find TCP wrappers, select apppropriate options or disable" "$LINENO" 5
+		as_fn_error "could not find TCP wrappers, select appropriate options or disable" "$LINENO" 5
 	else
 		{ $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: could not find TCP wrappers, support disabled" >&5
 $as_echo "$as_me: WARNING: could not find TCP wrappers, support disabled" >&2;}
