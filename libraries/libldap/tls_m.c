@@ -1581,7 +1581,7 @@ tlsm_get_certdb_prefix( const char *certdir, char **realcertdir, char **prefix )
 }
 
 /*
- * Currently mutiple MozNSS contexts share one certificate storage. When the
+ * Currently multiple MozNSS contexts share one certificate storage. When the
  * certdb is being opened, only new certificates are added to the storage.
  * When different databases are used, conflicting nicknames make the
  * certificate lookup by the nickname impossible. In addition a token
