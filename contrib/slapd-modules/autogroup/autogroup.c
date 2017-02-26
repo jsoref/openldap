@@ -581,7 +581,7 @@ autogroup_add_members_from_filter( Operation *op, Entry *e, autogroup_entry_t *a
 
 /* 
 ** Adds a group to the internal list from the passed entry.
-** scan specifies whether to add all maching members to the group.
+** scan specifies whether to add all matching members to the group.
 ** modify specifies whether to modify the given group entry (when modify == 0),
 **	or to modify the group entry in the database (when modify == 1 and e = NULL and ndn != NULL).
 ** agi	- pointer to the groups and the attribute definitions
