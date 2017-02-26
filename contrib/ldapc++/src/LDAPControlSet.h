@@ -34,7 +34,7 @@ class LDAPControlSet {
          * For internal use only
          *
          * This constructor creates a new LDAPControlSet for a
-         * 0-terminiated array of LDAPControl-structures as used by the
+         * 0-terminated array of LDAPControl-structures as used by the
          * C-API
          * @param controls: pointer to a 0-terminated array of pointers to 
          *                  LDAPControl-structures
