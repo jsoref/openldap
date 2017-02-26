@@ -102,7 +102,7 @@ class LDAPConnection : private LDAPAsynConnection {
         void unbind();
         
         /**
-         * Performs a COMPARE-operation on an entery of the destination 
+         * Performs a COMPARE-operation on an entry of the destination 
          * server.
          *
          * @throws LDAPReferralException if a referral is received
