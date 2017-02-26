@@ -632,7 +632,7 @@ comp_test_components( void* attr_nm, void* assert_nm, ComponentSyntaxInfo* csi_a
 		 * 1) If so, look up the corresponding decoder  in the mapping
 		 * table(OID to decoder) by <select>
 		 * and then decode the OCTET/BIT STRING with the decoder
-		 * Finially, extreact the target component with the remaining CR.
+		 * Finially, extract the target component with the remaining CR.
 		 * 2) If not, just return the current component, It SHOULD not be
 		 * extracted further, because the component MUST be BIT/OCTET
                  * string.
