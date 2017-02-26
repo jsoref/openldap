@@ -1168,7 +1168,7 @@ autogroup_response( Operation *op, SlapReply *rs )
 
 			/* For each group: 
 			   1. check if the orginal entry's DN is in the group.
-			   2. chceck if the any of the group filter's base DN is a suffix of the new DN 
+			   2. check if the any of the group filter's base DN is a suffix of the new DN 
 
 			   If 1 and 2 are both false, we do nothing.
 			   If 1 and 2 is true, we remove the old DN from the group, and add the new DN.
