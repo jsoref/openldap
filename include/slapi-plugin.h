@@ -555,7 +555,7 @@ int slapi_x_backend_get_flags( const Slapi_Backend *be, unsigned long *flags );
 #define SLAPI_PLUGIN_DESCRIPTION		12
 #define SLAPI_PLUGIN_IDENTITY			13
 
-/* internal opreations params */
+/* internal operations params */
 #define SLAPI_PLUGIN_INTOP_RESULT		15
 #define SLAPI_PLUGIN_INTOP_SEARCH_ENTRIES	16
 #define SLAPI_PLUGIN_INTOP_SEARCH_REFERRALS	17
