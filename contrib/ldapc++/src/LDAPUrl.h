@@ -120,7 +120,7 @@ class LDAPUrl{
         
         /**
          * Set the Attributes part of the URL
-         * @param attrs StringList constaining the List of Attributes
+         * @param attrs StringList containing the List of Attributes
          */
         void setAttrs( const StringList &attrs);
         void setExtensions( const StringList &ext);
