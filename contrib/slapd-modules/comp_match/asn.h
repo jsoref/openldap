@@ -1,7 +1,7 @@
 /* Copyright 2004 IBM Corporation
  * All rights reserved.
  * Redisribution and use in source and binary forms, with or without
- * modification, are permitted only as  authorized by the OpenLADP
+ * modification, are permitted only as  authorized by the OpenLDAP
  * Public License.
  */
 /* ACKNOWLEDGEMENTS
