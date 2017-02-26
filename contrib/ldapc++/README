@@ -6,7 +6,7 @@ Headerfiles installed.
 
 Installation:
 =============
-Just run the "configure" script with the apropriate options. Especially
+Just run the "configure" script with the appropriate options. Especially
 these two options can be imported, if you didn't install the OpenLDAP-
 libraries in the default place:
 
