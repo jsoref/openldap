@@ -10,7 +10,7 @@ integrity and confidentiality protections and to support
 LDAP authentication using the {{TERM:SASL}} {{TERM:EXTERNAL}} mechanism. 
 TLS is defined in {{REF:RFC4346}}.
 
-Note: For generating certifcates, please reference {{URL:http://www.openldap.org/faq/data/cache/185.html}}
+Note: For generating certificates, please reference {{URL:http://www.openldap.org/faq/data/cache/185.html}}
 
 H2: TLS Certificates
 
@@ -96,7 +96,7 @@ files.  The {{certutil}} command can be used to add a {{TERM:CA}} certificate:
 
 >	certutil -d <path> -A -n "name of CA cert" -t CT,, -a -i /path/to/cacertfile.pem
 
-. This command will add a CA certficate stored in the PEM (ASCII) formatted
+. This command will add a CA certificate stored in the PEM (ASCII) formatted
 . file named /path/to/cacertfile.pem.  {{EX:-t CT,,}} means that the certificate is
 . trusted to be a CA issuing certs for use in TLS clients and servers.
 
